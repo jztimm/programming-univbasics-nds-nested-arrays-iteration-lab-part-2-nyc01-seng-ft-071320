@@ -10,10 +10,9 @@ def find_min_in_nested_arrays(src)
   
   inner_arr = 0
   while inner_arr < src.length do
-<<<<<<< HEAD
+
     min_number = src[inner_arr][0]
-=======
->>>>>>> c62dc1fbe3c74254db294509c2ad21dd20882cd8
+
     ele_arr = 0
     while ele_arr < src[inner_arr].length
       if src[inner_arr][ele_arr] < min_number
